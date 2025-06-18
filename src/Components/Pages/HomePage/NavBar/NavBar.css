@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
 
 nav {
     width: 100%;
     height: 99px;
-    color: #fff;
     padding: 4px;
     top: 0;
     left: 0;
@@ -13,31 +13,14 @@ nav {
     z-index: 10;
 }
 
-.logo {
-    font-family: "Inria Serif", serif;
-    font-size: 32px;
-    color: #ffff;
-}
-
 nav ul li {
     display: inline-block;
     list-style: none;
     margin: 5px 20px;
-    font-size: 22px;
     cursor: pointer;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
-    font-family: "Inria Serif", serif;
 }
 
-nav ul li:hover {
+.nav-link:hover {
     color: #fff;
-}
-
-.dark-nav {
-    background: linear-gradient(
-        to right, 
-        rgba(5, 5, 5, 0.8) 43%, 
-        rgb(111, 111, 111) 66%
-    );
-    color: #000;
 }

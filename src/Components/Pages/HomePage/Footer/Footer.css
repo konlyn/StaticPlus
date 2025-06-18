@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Outfit:wght@100..900&display=swap');
 
 .footer {
-    background: linear-gradient(
-        to right, 
-        rgba(5, 5, 5, 0.8) 43%,
-        rgba(111, 111, 111) 66%
-    );
-    color: #fff;
     padding: 40px 0;
-    font-family: "Inria Serif", serif;
 }
 
 footer a {
@@ -33,20 +26,32 @@ footer a {
 }
 
 .footer-column h4 {
-    font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.footer-column p {
+.footer-column ul li {
     margin: 10px 0;
-    font-size: 14px;
     opacity: 0.8;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links ul li {
+    list-style: none;
+    text-decoration: none;
 }
 
 .footer-social {
     display: flex;
     gap: 15px;
-    font-size: 22px;
     margin-top: 200px;
 }
 
@@ -65,41 +70,28 @@ footer a {
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 10px;
+    gap: 15px;
     margin-left: 100px;
 }
 
-.footer-bottom select {
+.footer-bottom .country {
     padding: 6px 10px;
     background-color: #444;
-    color: #fff;
     border: none;
-    font-size: 14px;
 }
 
-.footer-bottom p {
-    color: #818181;
-    font-size: 14px;
+.idioma {
+    padding-right: 5px;
 }
 
 .footer-bottom a {
-    color: #fff;
-    font-size: 17px;
     margin-right: 20px;
 }
 
-.footer-links {
-    text-align: center;
-    font-size: 12px;
-    opacity: 0.8;
-}
-
-.footer-links a {
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.footer-links a:hover {
+.footer-bottom a:hover {
     text-decoration: underline;
+}
+
+.build-id {
+    margin-top: 0.5rem;
 }

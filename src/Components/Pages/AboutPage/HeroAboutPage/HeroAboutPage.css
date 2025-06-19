@@ -1,0 +1,230 @@
+.about-us-container {
+  position: relative;
+  width: 100%;
+  min-height: 1314px;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.about-us-section {
+  padding: 2rem;
+  text-align: center;
+}
+.about-us-text {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-text h2 {
+    margin-top: 14px;
+}
+
+.about-us-text h1 {
+    margin-top: 14px;
+}
+
+.about-us-text p {
+    margin-top: 14px;
+}
+
+.about-us-team {
+    position: absolute;
+    top: 237px;
+    left: 403px;
+    width: 800px;
+    height: 650px;
+    margin-top: 191px;
+    background-color: #666;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.35);
+    text-align: start;
+    z-index: 9;
+}
+
+.about-us-team-text {
+    margin: 41px 0 0 49px;
+}
+
+.about-us-team-text h3 {
+    margin-top: 18px;
+}
+
+.about-us-team-text h2 {
+    margin-top: 18px;
+}
+
+.about-us-team-text p {
+    margin-top: 18px;
+}
+
+.text-box-1 {
+    width: 650px;
+    height: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden; 
+}
+
+.text-box-2 {
+    width: 329px;
+    height: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;  
+}
+
+.text-box-3 {
+    width: 397px;
+    height: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;  
+}
+
+.about-us-image {
+    background-color: #818181;
+    position: absolute;
+    top: 502px;
+    left: 1066px;
+    width: 433px;
+    height: 650px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.30);
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+
+.about-us-image img {
+    width: 433px;
+    height: 650px;
+}
+
+.book-mark-wrapper {
+    position: relative;
+}
+
+.book-mark {
+    position: absolute;
+    width: 75px;
+    height: 102px;
+    border-radius: 0 0 0 10px;
+    background-color: #D9D9D9;
+    left: 1005px;
+    top: 97px;
+    z-index: 10;
+    box-shadow: 0 4px 0 rgba(0,0,0,0.25);
+}
+
+.book-mark-back {
+    position: absolute;
+    left: 1015px;
+    top: 97px;
+    width: 75px;
+    height: 102px;
+    border-radius: 0 10px 0 0;
+    background-color: #C5C5C5;
+    z-index: 7;
+}
+
+.background-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.background-icons .icon-1 {
+    position: absolute;
+    top: 95px;
+    left: 1400px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0s;
+}
+
+.background-icons .icon-2 {
+    position: absolute;
+    top: 500px;
+    left: 1600px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+.background-icons .icon-3 {
+    position: absolute;
+    top: 250px;
+    left: 1600px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+
+.background-icons .icon-4 {
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.9s;
+}
+
+.background-icons .icon-5 {
+    position: absolute;
+    top: 420px;
+    left: 230px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+
+.background-icons .icon-6 {
+    position: absolute;
+    top: 680px;
+    left: 1520px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.7s;
+}
+
+.background-icons .icon-7 {
+    position: absolute;
+    top: 350px;
+    left: 1280px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+.background-icons .icon-8 {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.background-icons .icon-9 {
+    position: absolute;
+    top: 700px;
+    left: 130px;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+
+@keyframes float {
+  0%   { transform: rotate(-20deg) translateY(0); }
+  50%  { transform: rotate(-20deg) translateY(-10px); }
+  100% { transform: rotate(-20deg) translateY(0); }
+}
